@@ -10,7 +10,9 @@ vim.opt.nu = true
 
 
 -- split settings / note control-w c to close a split / also to resize  :resize
-vim.opt.splitbelow = false
+-- vim.opt.splitbelow = false
+vim.opt.splitbelow = true
+vim.opt.splitright = true
 
 -- remove ugly vertical lines on window division
 -- vim.opt.fillchars+="vert:\"
